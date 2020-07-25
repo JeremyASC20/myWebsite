@@ -3,8 +3,25 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
+body { 
     background-color: #F5F5F5;
+    padding: 0px;
+    margin: 0px;
+} 
+
+body::-webkit-scrollbar-thumb {
+    background-color: #f1f1f1;
+    border: solid 1px white;
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #c1c1c1;
+    border: solid 1px transparent;
+}
+
+body::-webkit-scrollbar {
+    width: 1rem;
 }
 
 .container {
