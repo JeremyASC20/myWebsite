@@ -1,0 +1,289 @@
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+.container {
+    background-color: #e8e6e6;
+    margin: 0px;
+}
+
+.others {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.others a {
+    font-family: 'Monoton', cursive;
+    font-size: 35px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.background {
+    margin: 50px;
+    margin-top: 20px;
+    background-color: #999997;
+    height: 564px;
+    display: flex;
+}
+
+#Me {
+    padding-top: 0px;
+    width: 750px;
+}
+
+.background h1 {
+    padding-top: 200px;
+    padding-left: 10px;
+    margin: 0px;
+    font-family: 'Passion One', cursive;
+    font-size: 65px;
+    text-decoration: underline ;
+    font-weight: bold;
+}
+
+.background p {
+    margin: 0px;
+    padding: 12px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.know {
+    margin: 0px;
+    width: 100%;
+    height: 150px;
+    background-color: #454647;
+}
+
+.know h1 {
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 80px;
+    color: #F0F8FF;
+}
+
+.containerTwo {
+    background-color: #e8e6e6;
+}
+
+#header h1 {
+    margin-top: 0px;
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Monoton', cursive;
+    text-decoration: underline;
+}
+
+.About {
+    display: flex;
+}
+
+#profile {
+    width: 400px;
+    height: 700px;
+}
+
+.left {
+    width : 475px;
+}
+
+.right {
+    width: 475px;
+}
+
+.left h3 {
+    padding-left: 150px;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.left p {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+.right h3 {
+    padding-left: 125px;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.right p {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+.See {
+    margin: 0px;
+    width: 100%;
+    height: 150px;
+    background-color: #454647;
+}
+
+.See h1 {
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 80px;
+    color: #F0F8FF;
+}
+
+.containerThree {
+    background-color: #e8e6e6;
+}
+
+#Gallery h1 {
+    margin: 0px;
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Monoton', cursive;
+    text-decoration: underline;
+}
+
+.set1 {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#baymax {
+    width: 350px;
+}
+#bear {
+    width: 300px;
+}
+
+#governor {
+    width: 350px;
+}
+
+.set2 {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#movie {
+    width: 400px;
+}
+
+#movie2 {
+    width: 400px;
+}
+
+.set3 {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#young {
+    width: 300px;
+}
+
+#industry {
+    width: 325px;
+}
+
+#asc {
+    width: 350px;
+}
+
+.follow {
+    margin: 0px;
+    width: 100%;
+    height: 150px;
+    background-color: #454647;
+}
+
+.follow h1 {
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 80px;
+    color: #F0F8FF;
+}
+
+.containerFour {
+    background-color: #999997;
+}
+
+#Contact h1 {
+    margin: 0px;
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Monoton', cursive;
+    text-decoration: underline;
+    color: black;
+}
+
+.containerFour {
+    height: 1000px;
+}
+
+.containerFour h1 {
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Passion One', cursive;
+    color: #F5FFFA;
+    margin: 0px;
+}
+
+.containerFour p {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: #F5FFFA;
+}
+
+.social {
+    text-align: center;
+}
+
+.social img {
+    padding-top: 50px;
+    padding-right: 10px;
+}
+.social a {
+    font-family: 'Aldrich', sans-serif;
+    font-size: 35px;
+    text-decoration: none;
+    color: black;
+}
+
+.containerFour h2 {
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'Aldrich', sans-serif;
+    font-size: 40px;
+    color: #F5FFFA;
+}
+
+.main {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.main img {
+    width: 60px;
+}
