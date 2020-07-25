@@ -218,6 +218,7 @@ body::-webkit-scrollbar {
     font-family: 'Aldrich', sans-serif;
     font-size: 25px;
     font-weight: bold;
+    padding-right: 50px;
 }
 
 .description p {
@@ -226,13 +227,13 @@ body::-webkit-scrollbar {
 
 .description1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 0px;
     padding-top: 30px;
     font-family: 'Aldrich', sans-serif;
     font-size: 30px;
     font-weight: bold;
-    padding-left: 50px;
+    padding-left: 0px;
 }
 
 .description1 p {
