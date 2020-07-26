@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    height: auto;
 }
 
 body { 
@@ -28,13 +29,21 @@ body::-webkit-scrollbar {
     margin: 0px;
 }
 
+.container h1 {
+    margin-top: 0px;
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Bungee Inline', cursive;
+    font-size: 40px;
+}
+
 .navigation {
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
     padding: 5px;
     background-color: beige;
 }
+
 .others {
     padding-top: 10px;
     display: flex;
@@ -58,7 +67,7 @@ body::-webkit-scrollbar {
 }
 
 .background {
-    margin-top: 20px;
+    margin-top: 0px;
     background-color: beige;
     width: 100%;
     height: 564px;
@@ -89,7 +98,7 @@ body::-webkit-scrollbar {
 }
 
 .know {
-    margin: 0px;
+    margin-top: 53.6px;
     width: 100%;
     height: 150px;
     background-color: #454647;
@@ -170,8 +179,8 @@ body::-webkit-scrollbar {
 }
 
 a[href$="Resume.docx"]::after {
-    content: url(https://upload.wikimedia.org/wikipedia/commons/4/4f/Microsoft_Word_2013_logo.svg);
-    padding: 20px;
+    content: url('/images/word.png');
+    zoom: 0.2;
 }
 
 .right h3 {
@@ -267,10 +276,6 @@ a[href$="Resume.docx"]::after {
 }
 
 .set1 img {
-    opacity: 0.7;
-}
-
-.set1 img:hover {
     opacity: 1;
 }
 
@@ -295,10 +300,6 @@ a[href$="Resume.docx"]::after {
 }
 
 .set2 img {
-    opacity: 0.7;
-}
-
-.set2 img:hover {
     opacity: 1;
 }
 
@@ -318,10 +319,6 @@ a[href$="Resume.docx"]::after {
 }
 
 .set3 img {
-    opacity: 0.7;
-}
-
-.set3 img:hover {
     opacity: 1;
 }
 
@@ -392,7 +389,6 @@ a[href$="Resume.docx"]::after {
 .social img {
     padding-top: 50px;
     padding-right: 10px;
-    opacity: 0.7;
     width: 80px;
 }
 
