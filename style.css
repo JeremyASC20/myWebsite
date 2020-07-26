@@ -165,7 +165,7 @@ body::-webkit-scrollbar {
 }
 
 .right a {
-    font-size: 40px;
+    font-size: 30px;
     text-decoration: none;
     color: black;
     transition: all 0.5s ease-out;
@@ -173,7 +173,7 @@ body::-webkit-scrollbar {
 
 .right a:hover {
     color: white; 
-    font-size: 50px;
+    font-size: 45px;
     text-decoration: overline;
     transition: all 0.5s ease-out;
 }
@@ -417,6 +417,13 @@ a[href$="Resume.docx"]::after {
     color: #F5FFFA;
 }
 
+.containerFour p {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+}
+
 .main {
     padding-top: 5px;
     display: flex;
@@ -435,3 +442,7 @@ a[href$="Resume.docx"]::after {
     color: black;
     transition: all 0.5s ease-out;
 }
+
+/* @media(max-width: 1030px) {
+
+} */
