@@ -179,7 +179,7 @@ body::-webkit-scrollbar {
 }
 
 a[href$="Resume.docx"]::after {
-    content: url('/images/word.png');
+    content: url('images/word.png');
     zoom: 0.2;
 }
 
@@ -247,13 +247,11 @@ a[href$="Resume.docx"]::after {
     display: flex;
     justify-content: space-around;
     margin: 0px;
-    padding-top: 30px;
     padding-bottom: 20px;
-    padding-right: 50px;
     font-family: 'Mulish', sans-serif;
-    font-size: 23px;
+    font-size: 35px;
     font-weight: bold;
-    font-style: italic;
+    height: 40px;
 }
 
 .description p {
@@ -264,19 +262,15 @@ a[href$="Resume.docx"]::after {
     display: flex;
     justify-content: space-around;
     margin: 0px;
-    padding-top: 30px;
+    padding-top: 20px;
     font-family: 'Mulish', sans-serif;
-    font-size: 23px;
+    font-size: 35px;
     font-weight: bold;
-    font-style: italic;
+    height: 40px;
 }
 
 .description1 p {
     margin: 0px;
-}
-
-.set1 img {
-    opacity: 1;
 }
 
 #baymax {
@@ -296,11 +290,7 @@ a[href$="Resume.docx"]::after {
     justify-content: space-around;
     align-items: center;
     font-family: 'Mulish', sans-serif;
-    font-size: 10px;
-}
-
-.set2 img {
-    opacity: 1;
+    font-size: 15px;
 }
 
 #movie {
@@ -318,10 +308,6 @@ a[href$="Resume.docx"]::after {
     align-items: center;
 }
 
-.set3 img {
-    opacity: 1;
-}
-
 #young {
     width: 300px;
 }
@@ -335,7 +321,6 @@ a[href$="Resume.docx"]::after {
 }
 
 .follow {
-    margin: 0px;
     width: 100%;
     height: 150px;
     background-color: #454647;
@@ -410,10 +395,9 @@ a[href$="Resume.docx"]::after {
 .containerFour h2 {
     margin: 0px;
     padding-top: 25px;
-    padding-bottom: 25px;
     text-align: center;
     font-family: 'Aldrich', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     color: #F5FFFA;
 }
 
@@ -443,6 +427,18 @@ a[href$="Resume.docx"]::after {
     transition: all 0.5s ease-out;
 }
 
-/* @media(max-width: 1030px) {
+.linkedin {
+    height: 100px;
+}
 
-} */
+.facebook {
+    height: 140px;
+}
+
+.instagram {
+    height: 140px
+}
+
+.github {
+    height: 140px;
+}
