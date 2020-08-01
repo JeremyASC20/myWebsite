@@ -116,12 +116,35 @@ body::-webkit-scrollbar {
     background-color: rgba(102, 205, 170, 0.4);
 }
 
-#header h1 {
+.header h1 {
     margin-top: 0px;
-    padding-top: 50px;
+    padding-top: 25px;
     text-align: center;
     font-family: 'Bungee Inline', cursive;
     font-size: 40px;
+}
+
+#heading {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-family: 'Fredoka One', cursive;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#text {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+#text p {
+    width: 845.335px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .About {
@@ -172,7 +195,7 @@ body::-webkit-scrollbar {
 }
 
 .right a:hover {
-    color: white; 
+    color: #000080; 
     font-size: 45px;
     text-decoration: overline;
     transition: all 0.5s ease-out;
@@ -195,6 +218,7 @@ a[href$="Resume.docx"]::after {
     font-family: 'Spectral SC', serif;
     font-size: 30px;
     font-weight: bold;
+    height: 46px;
 }
 
 .right p {
