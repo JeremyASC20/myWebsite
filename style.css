@@ -124,6 +124,14 @@ body::-webkit-scrollbar {
     font-size: 40px;
 }
 
+#header h1 {
+    margin-top: 0px;
+    padding-top: 25px;
+    text-align: center;
+    font-family: 'Bungee Inline', cursive;
+    font-size: 40px;
+}
+
 #heading {
     display: flex;
     justify-content: center;
